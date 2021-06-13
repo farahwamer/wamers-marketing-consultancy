@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contact-container {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10vh;
+}
+
+.form-container {
+  /* background-color: #5c6373; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  /* background-color: aliceblue; */
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 100%;
+  margin-left: 7vw;
+}
+.form-container h1 {
+  font-family: raleway;
+  font-weight: 800;
+  font-size: 48px;
+  color: #5c6373;
+}
+
+.form-container p {
+  font-family: open sans;
+  font-weight: 400;
+  font-size: 18px;
+  color: #5c6373;
+  margin-bottom: 3rem;
+}
+
+.form-container input[type="text"] {
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  /* background: transparent; */
+  border-bottom: 3px solid #138085;
+  height: 7%;
+  margin-bottom: 1.5rem;
+}
+
+textarea {
+  border: 3px solid #138085;
+  outline: none;
+  -webkit-appearance: none;
+  height: 40%;
+  resize: none;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  margin-bottom: 1.5rem;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+}
+
+input[type="submit"] {
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  width: 20%;
+  padding: 1rem 0.3rem;
+  background-color: #138085;
+  font-family: open sans;
+  font-weight: 600;
+  color: #f2f2f2;
+  border-radius: 5px;
+  align-self: flex-end;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: background 0.08s linear;
+}
+
+input[type="submit"]:hover {
+  background-color: #0f6064;
+}
+
+input,
+textarea {
+  background: transparent;
+  font-family: open sans;
+}
+
+input[type="text"]:focus {
+  border-bottom: 3px solid #19adb4;
+}
+
+label {
+  font-family: open sans;
+  font-size: 13px;
+  color: #757575;
+  margin-bottom: 0.5rem;
+}
