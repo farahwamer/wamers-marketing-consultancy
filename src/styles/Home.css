@@ -8,14 +8,15 @@
   height: 100vh;
   width: 100vw;
   background-size: cover;
+  background-position: 60% 50%;
 }
 
 .home-content-container {
-  height: 45%;
+  height: 40%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin-top: 10vh;
+  margin-top: 15vh;
   margin-left: 5vh;
 }
 
@@ -36,7 +37,7 @@
   font-size: 24px;
   color: #663347;
   cursor: pointer;
-  transition: all 0.05s linear;
+  transition: all 0.05s ease-in-out;
 }
 
 .cta-btn:hover {
