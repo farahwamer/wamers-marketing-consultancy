@@ -41,6 +41,12 @@
 }
 
 .cta-btn:hover {
-  background: #b25d7e;
-  color: #f2f2f2;
+  box-shadow: 2px 2px 15px rgba(139, 104, 104, 0.25);
+  background: rgba(215, 47, 134, 0.11);
+}
+
+.home-container a {
+  text-decoration: none;
+  color: #663347;
+  transition: all 0.05s ease-in-out;
 }

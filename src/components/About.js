@@ -4,7 +4,7 @@ import workplace from "../assets/about-pic.png";
 
 const About = () => {
   return (
-    <div className="about-container">
+    <div className="about-container" id="about">
       <img src={workplace} alt="workspace" />
       <div className="about-text-container">
         <section className="about-text">

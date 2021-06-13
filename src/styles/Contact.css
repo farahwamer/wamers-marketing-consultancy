@@ -8,7 +8,7 @@
   height: 100vh;
   display: flex;
   justify-content: space-between;
-  padding-top: 10vh;
+  padding: 10vh 0;
 }
 
 .form-container {

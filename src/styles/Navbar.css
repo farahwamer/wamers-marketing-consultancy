@@ -16,7 +16,6 @@
   font-family: "Open Sans", sans-serif;
   font-weight: bolder;
   font-size: 14px;
-  color: #0a3e41;
   /* background-color: #197479; */
   align-items: center;
 }
@@ -32,4 +31,9 @@ ul li:hover {
 
 .logo {
   margin: 1rem;
+}
+
+.navbar-container a {
+  text-decoration: none;
+  color: #0a3e41;
 }
