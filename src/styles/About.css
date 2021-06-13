@@ -6,12 +6,15 @@
 
 .about-container {
   display: flex;
-  padding-top: 15vh;
+  /* margin-top: 15vh; */
   justify-content: space-between;
+  height: 100vh;
+  align-items: center;
 }
 
 .about-container img {
   border-bottom: 11px solid #138085;
+  height: 75%;
 }
 
 .about-text-container {
