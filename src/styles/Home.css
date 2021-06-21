@@ -44,7 +44,6 @@
 }
 
 .cta-btn:hover {
-  box-shadow: 2px 2px 15px rgba(139, 104, 104, 0.25);
   background: rgba(215, 47, 134, 0.11);
 }
 
@@ -55,7 +54,7 @@
 }
 
 mark {
-  background-color: #16696d;
-  color: #f2f2f2;
+  background-color: transparent;
+  color: #588c8e;
   padding: 0 0.3rem;
 }

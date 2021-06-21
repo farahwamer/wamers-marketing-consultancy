@@ -21,7 +21,7 @@
 }
 
 ul li {
-  margin: 1rem 3.5rem;
+  margin: 1.7rem 3.5rem;
   cursor: pointer;
 }
 
@@ -30,7 +30,9 @@ ul li:hover {
 }
 
 .logo {
-  margin: 1rem;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
 }
 
 .navbar-container a {

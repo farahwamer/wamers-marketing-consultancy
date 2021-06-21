@@ -22,11 +22,12 @@ const Home = () => {
   };
 
   const startCycle = () => {
-    intervalId = setInterval(switchWord, 4000);
+    intervalId = setInterval(switchWord, 2000);
   };
 
   const stopCycle = () => {
     clearInterval(intervalId);
+    setWord({ index: 0, word: wordCycle[0] });
   };
 
   return (
@@ -34,7 +35,8 @@ const Home = () => {
       className="home-container"
       style={{ backgroundImage: `url(${background})` }}
       id="home"
-      onMouseEnter={startCycle}
+      onLoad={startCycle}
+      // onLoad={() => setTimeout(stopCycle, 20000)}
     >
       <Navbar />
       <div className="home-content-container">
