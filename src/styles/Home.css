@@ -53,3 +53,9 @@
   color: #663347;
   transition: all 0.05s ease-in-out;
 }
+
+mark {
+  background-color: #16696d;
+  color: #f2f2f2;
+  padding: 0 0.3rem;
+}
