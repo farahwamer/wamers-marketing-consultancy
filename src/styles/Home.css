@@ -58,3 +58,22 @@ mark {
   color: #588c8e;
   padding: 0 0.3rem;
 }
+
+@media screen and (max-width: 1142px) {
+  .title {
+    font-size: 36px;
+  }
+
+  .cta-btn {
+    font-size: 18px;
+  }
+
+  .home-content-container {
+    height: 30%;
+  }
+  .home-container {
+    background-position: 90% 10%;
+    background-size: cover;
+    height: 90vh;
+  }
+}
