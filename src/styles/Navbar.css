@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-container {
+  list-style-type: none;
+  display: flex;
+  /* background: pink; */
+  font-family: "Quicksand", sans-serif;
+  color: #47494f;
+  font-size: 14px;
+  width: 40vw;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem;
+}
+
+.list {
+  cursor: pointer;
+  transition: all 0.1s linear;
+}
+
+.list:hover {
+  font-size: medium;
+  font-weight: 500;
+}
