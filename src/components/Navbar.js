@@ -9,13 +9,13 @@ const Navbar = () => {
         <img src={logo} alt="logo"></img>
       </li>
       <li className="list">
-        <p>Home</p>
+        <a href="#home">Home</a>
       </li>
       <li className="list">
-        <p>About</p>
+        <a href="#about">About</a>
       </li>
       <li className="list">
-        <p>Contact</p>
+        <a href="#contact">Contact</a>
       </li>
     </ul>
   );

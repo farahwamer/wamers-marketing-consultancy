@@ -5,14 +5,14 @@ import megaphone from "../assets/megaphone.svg";
 
 const Home = () => {
   return (
-    <div className="home-container">
+    <div className="home-container" id="home">
       <Navbar />
       <section className="home-titles">
         <h1>
           Take your business <br></br>to the next level
         </h1>
         <p>Because you deserve to be heard.</p>
-        <a href="">
+        <a href="#contact">
           <button className="cta-btn">Get Started</button>
         </a>
       </section>

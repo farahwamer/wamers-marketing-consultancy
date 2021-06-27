@@ -26,3 +26,8 @@
   font-size: 14.5px;
   font-weight: 500;
 }
+
+.list a {
+  text-decoration: none;
+  color: #47494f;
+}

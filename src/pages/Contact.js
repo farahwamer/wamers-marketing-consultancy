@@ -5,7 +5,7 @@ import contact from "../assets/contact.png";
 
 const Contact = () => {
   return (
-    <div className="contact-container">
+    <div className="contact-container" id="contact">
       <Form />
       <img src={contact} alt="man with headset"></img>
     </div>
