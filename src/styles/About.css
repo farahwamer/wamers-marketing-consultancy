@@ -1,0 +1,38 @@
+.about-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-container img {
+  height: 70%;
+}
+
+.about-text {
+  /* background: pink; */
+  width: 35vw;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 4rem;
+}
+.about-text h1 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 40px;
+  width: 38%;
+  height: 40px;
+  background: linear-gradient(
+    180deg,
+    rgba(236, 124, 124, 0) 80.2%,
+    #ec7c7c 80.21%
+  );
+  color: #1f2023;
+  margin-bottom: 4rem;
+}
+
+.about-text p {
+  font-family: baskerville;
+  font-size: 20px;
+  color: #1f2023;
+}
