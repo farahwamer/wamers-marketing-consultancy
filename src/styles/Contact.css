@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contact-container {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-container img {
+  height: 94%;
+  align-self: flex-end;
+  margin-bottom: 1rem;
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar.js";
 import "../styles/Home.css";
-import megaphone from "../assets/megaphone.png";
+import megaphone from "../assets/megaphone.svg";
 
 const Home = () => {
   return (

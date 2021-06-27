@@ -3,4 +3,5 @@
   padding: 0;
   box-sizing: border-box;
   height: 100vh;
+  background: linear-gradient(180deg, #f9f9f9 0%, #fff8f8 100%);
 }
